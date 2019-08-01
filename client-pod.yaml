@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: kaeyz/multi-client
+      image: kaeyz/multi-worker
       ports:
         - containerPort: 3000
